@@ -7,12 +7,40 @@
     font-family: 'google';
     src: url('css/google.ttf')
 }
-
 .top{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;    /* heading over subtext */
+    align-items: center;
+}
+.title-text h1,
+.title-text p{
+    margin: 5px 0;
+}
+.header{
+    display: flex;
     font-family: 'Virgil';
+    flex-direction: row;
+    align-items: center;
     color: #fde74c;
     background-color: #E3655B;
+    padding: 2px;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 12px;
+    border: 3px solid;
+    border-color: black;
+    text-align: center;
+}
+.img{
+    height:90px;
+    width:auto;
+    padding:3px;
 }
 body {
     background-color: #FFFF;
@@ -31,7 +59,7 @@ body {
     border-radius: 12px;
     background-color: #2E798A;
     font-family: 'google';
-    box-shadow: 4px 4px #fde74c /*E3655B*/
+    box-shadow: 4px 4px #fde74c
 }
 .assignments h2{
     color: #000;
@@ -46,11 +74,8 @@ body {
     margin:10px 0;
 }
 
-mark {
-    padding:0;
-    background: radial-gradient(
-        #fde74c 95%,
-        transparent 100%
 
-    )
+.gif{
+    width:60px;
+    height:60px;
 }
