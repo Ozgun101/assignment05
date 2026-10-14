@@ -1,7 +1,24 @@
-.top{
-    text-align: center;
+@font-face {
+    font-family: 'Virgil';
+    src: url('css/Virgil.woff2')
 }
 
+@font-face {
+    font-family: 'google';
+    src: url('css/google.ttf')
+}
+
+.top{
+    text-align: center;
+    font-family: 'Virgil';
+    color: #fde74c;
+    background-color: #E3655B;
+}
+body {
+    background-color: #FFFF;
+    background-image: radial-gradient(circle, #488c90 0.8px, transparent 0.8px);
+    background-size: 25px 25px;
+}
 .assignments{
     display: flex;
     flex-direction: column;
@@ -9,10 +26,31 @@
     text-align: center;
     border-style: solid;
     border: 2px solid;
-    margin: 20px auto;
+    margin: 50px auto;
     width: 500px;
+    border-radius: 12px;
+    background-color: #2E798A;
+    font-family: 'google';
+    box-shadow: 4px 4px #fde74c /*E3655B*/
+}
+.assignments h2{
+    color: #000;
+    padding: 0 8px;
+    margin-bottom: -3px;
 }
 .bullets{
     list-style: none;
     padding: 0;
+}
+.bullets li{
+    margin:10px 0;
+}
+
+mark {
+    padding:0;
+    background: radial-gradient(
+        #fde74c 95%,
+        transparent 100%
+
+    )
 }
