@@ -15,12 +15,8 @@
 
 .title{
     display: flex;
-    flex-direction: column;    /* heading over subtext */
+    flex-direction: column;
     align-items: center;
-}
-.title-text h1,
-.title-text p{
-    margin: 5px 0;
 }
 .header{
     display: flex;
@@ -63,6 +59,7 @@ body {
 }
 .assignments h2{
     color: #000;
+    background-color:#fde74c;
     padding: 0 8px;
     margin-bottom: -3px;
 }
@@ -73,7 +70,6 @@ body {
 .bullets li{
     margin:10px 0;
 }
-
 
 .gif{
     width:60px;
